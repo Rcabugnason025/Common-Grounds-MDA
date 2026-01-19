@@ -1,0 +1,30 @@
+name: commongrounds
+description: "A Flutter-based student task and study management app designed to help students stay organized, manage assignments, plan study sessions, and improve productivity through reminders, AI assistance, and focus tools."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_design_icons_flutter: 7.0.7296
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.2
+  material_symbols_icons: ^4.2874.0
+  intl: ^0.19.0
+  table_calendar: ^3.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/group_main.png
